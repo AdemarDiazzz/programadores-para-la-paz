@@ -1,0 +1,20 @@
+Para  ver ubicación actual
+pwd
+
+Para ver archivos y carpetas
+ls
+Para crear carpeta
+mkdir semana2
+
+Para entrar a la carpeta
+cd semana2
+
+Para crear los archivos
+touch preguntas-semana2.txt
+touch comandos-terminal.txt
+touch reflexion-semana2.txt
+
+Para corregir y editar el contenido de los archivos 
+nano preguntas-semana2.txt
+nano comandos-terminal.txt
+nano reflexion-semana2.txt
