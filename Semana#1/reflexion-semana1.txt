@@ -1,3 +1,3 @@
-Usar internet con responsabilidad te convierte en un ciudadano consciente. Participar activamente te da una voz en la sociedad. Y trabajar con herramientas como Git te da la estructura mental y técnica para entender que las grandes obras (ya sean un software o una sociedad) se construyen de forma colectiva, transparente, dejando rastro de nuestras acciones y asumiendo el impacto de lo que aportamos al grupo. 
+Usar internet con responsabilidad te convierte en un ciudadano consciente. Participar activamente te da una voz en la sociedad,  trabajar con herramientas como Git te da la estructura mental ademas  técnica para entender que las grandes obras (ya sean un software o una sociedad) se construyen de forma colectiva, transparente, dejando rastro de nuestras acciones y asumiendo el impacto de lo que aportamos al grupo. 
 
 
