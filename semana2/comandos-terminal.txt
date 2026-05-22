@@ -1,5 +1,5 @@
 Para  ver ubicación actual
-pwd
+pwd.
 
 Para ver archivos y carpetas
 ls
