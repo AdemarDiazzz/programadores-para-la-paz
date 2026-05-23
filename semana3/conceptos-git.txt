@@ -1,0 +1,8 @@
+Repositorio:
+Es el espacio virtual o carpeta donde Git almacena de forma organizada todos los archivos, carpetas e historial de cambios de un proyecto. Funciona como una base de datos del código que permite revisar versiones anteriores y trabajar en equipo sin perder información.
+
+Commit:
+Es una instantánea o "foto" del estado de los archivos del proyecto en un momento específico, guardada de forma permanente en el historial. Cada commit actúa como un punto de control que incluye un mensaje descriptivo y permite regresar a ese estado exacto si algo falla.
+
+Push:
+Es el comando que se utiliza para enviar y subir los commits registrados localmente en tu computadora hacia un repositorio remoto, como GitHub. Permite actualizar el código en la nube para que esté respaldado y disponible para otros colaboradores o para su entrega.
