@@ -1,0 +1,10 @@
+Resultados de las pruebas en el navegador:
+
+1. Al ingresar a http://localhost:3000
+   El navegador muestra el texto "Servidor activo". Es la respuesta que devuelve la ruta raíz '/' para confirmar que el servidor está corriendo correctamente.
+
+2. Al ingresar a http://localhost:3000/saludo
+   El navegador muestra el texto "Hola comunidad". Responde al endpoint específico '/saludo' enviando un mensaje estático a los usuarios.
+
+3. Al ingresar a http://localhost:3000/mensaje/juan
+   El navegador muestra el texto "Hola juan". El servidor lee el parámetro dinámico ':nombre' de la URL (en este caso, "juan") a través de 'req.params' y lo concatena en la respuesta de forma dinámica.
