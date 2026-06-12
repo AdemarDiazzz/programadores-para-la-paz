@@ -1,0 +1,7 @@
+Explicación de las pruebas en el sistema (Ruta: GET y POST /reportes):
+
+1. Al realizar la consulta inicial mediante el método GET a 'http://localhost:3000/reportes', el servidor responde con un estado 200 OK y devuelve un array vacío '[]'. Esto sucede porque el servidor acaba de iniciar y la variable global 'reportes' no contiene elementos en memoria.
+
+2. Al enviar una petición POST con los datos de infraestructura ("Daño en alumbrado público"), el servidor procesa el JSON, le asigna un ID automático basándose en la longitud del array (id: 1) y confirma el éxito del registro.
+
+3. Al volver a ejecutar la consulta mediante el método GET, el servidor ya no devuelve un array vacío, sino una lista estructurada que contiene el objeto guardado previamente. Esto demuestra que los datos se almacenan de manera persistente en la memoria RAM del proceso actual de Node.js, permitiendo consultar en tiempo real todo lo que los usuarios registran.
