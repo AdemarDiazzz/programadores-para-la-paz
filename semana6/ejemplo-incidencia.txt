@@ -1,0 +1,4 @@
+{
+  "tipo": "Seguridad / Iluminación pública",
+  "descripcion": "La comunidad reporta que dos lámparas principales de la avenida principal no encienden, dejando la zona a oscuras durante la noche."
+}

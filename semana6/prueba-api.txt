@@ -1,0 +1,17 @@
+Explicación de la respuesta del servidor (Ruta: POST /registro):
+
+Al enviar una petición HTTP mediante el método POST al endpoint 'http://localhost:3000/registro' con el cuerpo estructurado en JSON conteniendo un nombre y un mensaje, el servidor procesa la información gracias al middleware 'express.json()'. 
+
+La API intercepta los datos, los extrae del 'req.body' y devuelve de inmediato una respuesta con un código de estado exitoso en formato JSON. El objeto devuelto confirma la recepción emitiendo un estado "Datos recibidos" y replica exactamente las propiedades enviadas por el cliente, demostrando que la comunicación bidireccional se completó de manera correcta.
+Explicación de la respuesta del servidor (Ruta: POST /registro):
+
+Al realizar la prueba usando la extensión Thunder Client enviando una petición POST a la URL http://localhost:3000/registro con el JSON de María, el servidor respondió correctamente con un estado HTTP 200 OK en un tiempo de 34 ms.
+
+La respuesta devuelta por el servidor fue el siguiente objeto JSON:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Esto demuestra que el middleware express.json() está interceptando el cuerpo de la petición de manera correcta, permitiendo que los datos viajen desde el cliente hasta el servidor y retornen estructurados.
