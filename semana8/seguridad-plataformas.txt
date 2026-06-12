@@ -1,0 +1,7 @@
+5 Prácticas de seguridad para una plataforma digital comunitaria:
+
+1. No exponer datos personales: Cifrar y restringir la visibilidad de datos sensibles de los vecinos (como teléfonos, correos o cédulas) para evitar su filtración.
+2. Proteger credenciales: Implementar políticas de contraseñas robustas y obligar el uso de hashes seguros (como bcrypt) en la base de datos para guardar las claves.
+3. Usar conexiones seguras: Configurar certificados SSL/TLS (HTTPS) obligatorios para que toda la información que viaja entre el ciudadano y el servidor vaya encriptada.
+4. Registrar accesos (Auditoría de Logs): Mantener un historial protegido de quién ingresa al sistema y qué modificaciones realiza, facilitando la detección de actividades sospechosas.
+5. Limitar acceso a información sensible: Aplicar el principio de menor privilegio, asegurando que solo los líderes tecnológicos o administradores autorizados puedan ver configuraciones internas de la API o del servidor.

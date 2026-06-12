@@ -1,0 +1,8 @@
+Explicación de comandos de sistema:
+
+1. ¿Qué información muestra cada comando?
+   - uname -a: Muestra la información detallada del núcleo (kernel) del sistema operativo, incluyendo el nombre del sistema, el host, la versión del kernel, la fecha de compilación y la arquitectura del procesador (en este caso, reflejará que usas una arquitectura ARM64/Darwin por tu Mac).
+   - whoami: Devuelve el nombre exacto del usuario que tiene la sesión activa actualmente en la terminal (ej. "ademardiazr").
+
+2. ¿Por qué es útil conocer esta información al administrar un servidor?
+   Conocer estos datos es fundamental por razones de compatibilidad y seguridad. Al saber la arquitectura exacta y la versión del kernel mediante 'uname', un administrador puede descargar e instalar los paquetes de software o librerías correctas (como las versiones de Node.js adecuadas para ARM64) y parchar vulnerabilidades específicas de esa versión. Por otro lado, verificar con 'whoami' evita cometer errores catastróficos, asegurando si se están ejecutando comandos con privilegios de administrador (root) o con un usuario común con permisos limitados.
