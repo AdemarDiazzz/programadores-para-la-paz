@@ -1,0 +1,7 @@
+Definiciones de los componentes de un entorno de servidor:
+
+- Sistema operativo: Es la capa base de software que administra directamente el hardware del computador o servidor. Se encarga de la gestión de memoria, procesos y flujos de red fundamentales para que Node.js pueda ejecutarse.
+- Node.js: Es el entorno de ejecución para JavaScript construido con el motor V8 de Chrome. Permite ejecutar código de programación del lado del servidor fuera del navegador web, procesando múltiples peticiones de red de forma asíncrona.
+- Aplicación server.js: Es nuestro script de código personalizado donde se define la lógica de negocio, las rutas de acceso (endpoints como / y /estado) y las respuestas específicas que la API entregará a los usuarios de la comunidad.
+- Puerto: Es un punto de entrada lógico virtual (en este caso el 3000) asignado por el sistema operativo. Funciona como un canal específico para canalizar y separar el tráfico de red de nuestra aplicación de otros servicios del sistema.
+- Logs: Son archivos de registro cronológicos donde el servidor anota los eventos de ejecución, conexiones de usuarios o errores del sistema. Son vitales para auditar el software y diagnosticar fallas de estabilidad sin adivinar.
