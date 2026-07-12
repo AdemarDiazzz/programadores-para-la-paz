@@ -1,0 +1,17 @@
+Planificación de la Iteración Corta:
+
+1. ¿Qué 2 tareas del backlog harías primero?
+   Seleccionaría las tareas de Prioridad Alta: 
+   - El registro de incidencias por parte del ciudadano (POST /reportes).
+   - La consulta de la lista de reportes por parte del equipo (GET /reportes).
+
+2. ¿Por qué son las más importantes?
+   Porque constituyen el "Producto Mínimo Viable" (MVP). Sin la capacidad de guardar la información base y sin una ruta para leerla, el sistema no existe ni tiene utilidad. Las automatizaciones de alertas (Telegram) o los filtros avanzados son añadiduras excelentes, pero dependen enteramente de que los datos primarios ya se puedan gestionar correctamente.
+
+3. Definición de Terminado (Definition of Done - DoD):
+   Para mí, una tarea se considera completamente "terminada" cuando cumple estrictamente con los siguientes 4 criterios de calidad:
+   - Funciona: El código ejecuta sin errores de sintaxis y cumple el objetivo de la historia de usuario.
+   - Fue probada: Se validó el comportamiento localmente mediante clientes de pruebas como Thunder Client (métodos GET y POST arrojando Status 200 OK).
+   - Sin datos duros expuestos: No contiene tokens, contraseñas ni credenciales explícitas en el código.
+   - Quedó registrada en Git: Los cambios fueron guardados localmente mediante un commit y sincronizados en el repositorio remoto de GitHub.
+   

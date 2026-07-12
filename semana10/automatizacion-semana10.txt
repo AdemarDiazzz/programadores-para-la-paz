@@ -1,0 +1,12 @@
+Diseño de Flujo de Automatización (n8n + Telegram):
+
+1. ¿Qué evento activa el flujo?
+   El flujo es activado por un "Webhook" o un nodo de escucha en n8n que recibe una señal HTTP POST de forma automática inmediatamente después de que un ciudadano registra exitosamente una incidencia en la API del servidor.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+   Se enviaría un mensaje de alerta genérico y estandarizado al canal de coordinación:
+   "Alerta de Veeduría: Se ha registrado un nuevo reporte en la plataforma. Por favor, ingrese al panel administrativo para revisar los detalles y asignar un encargado de seguimiento."
+
+3. ¿Qué información NO debería enviarse por seguridad?
+   Bajo ninguna circunstancia se deben enviar datos sensibles o de identificación personal (PII) a través del chat de Telegram. Esto incluye: nombres completos de los denunciantes, números de documentos de identidad (cédulas), direcciones exactas de residencias, números telefónicos de contacto, contraseñas o descripciones explícitas que puedan poner en riesgo la integridad física o la privacidad de los líderes comunitarios ante una eventual filtración del canal.
+   
