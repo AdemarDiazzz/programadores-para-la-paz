@@ -1,0 +1,19 @@
+Diseño de Modelo de Datos Estructurado:
+
+Entidad: Causa
+Campos principales:
+- id (Entero, Clave Primaria Autoincremental)
+- titulo (Texto, Obligatorio)
+- descripcion (Texto, Obligatorio)
+- fecha_creacion (Fecha, Automática)
+Propósito:
+Almacenar de forma organizada las causas, iniciativas o proyectos propuestos por la comunidad que estarán visibles de manera pública en la plataforma.
+
+Entidad: Apoyo
+Campos principales:
+- id (Entero, Clave Primaria Autoincremental)
+- causa_id (Entero, Clave Foránea que conecta con Causa)
+- usuario_anonimizado (Texto, Identificador seguro del firmante)
+- fecha_voto (Fecha y Hora, Automática)
+Propósito:
+Registrar de forma única e inequívoca cada muestra de apoyo o firma que recibe una causa específica, permitiendo llevar una trazabilidad del impacto real y la participación ciudadana sin comprometer la identidad privada.
