@@ -1,0 +1,19 @@
+Diseño de Base de Datos - Sistema de Peticiones Formales:
+
+Entidad: Causa
+Campos principales:
+- id (Entero, Clave Primaria Autoincremental): Identificador único del caso.
+- titulo (Texto): Asunto central o encabezado de la problemática.
+- descripcion (Texto): Justificación y hechos que motivan la solicitud formal.
+- fecha (Fecha): Registro cronológico de apertura de la iniciativa.
+Propósito:
+Almacenar el cuerpo jurídico y los hechos sustanciales de las iniciativas de la comunidad que posteriormente le darán forma y sustento técnico al documento de petición final.
+
+Entidad: Apoyo
+Campos principales:
+- id (Entero, Clave Primaria Autoincremental): Identificador único de la firma.
+- causa_id (Entero, Clave Foránea): Relación directa que vincula el apoyo con una Causa específica.
+- pseudonimo_firma (Texto): Identificador anonimizado que representa el respaldo del ciudadano sin exponer sus datos civiles.
+- fecha (Fecha): Momento exacto en el que se efectuó el registro de la firma.
+Propósito:
+Cuantificar de forma auditable el respaldo popular de la comunidad hacia la causa, sirviendo como anexo de firmas o evidencias de adhesión ciudadana dentro del PDF generado.

@@ -1,0 +1,8 @@
+Flujo Operativo de "Petición en 3 Clics":
+
+Pasos del Ciclo Completo:
+1. Creación de la iniciativa: Un líder o ciudadano autorizado crea una causa comunitaria en la plataforma web mediante un formulario simple donde especifica el título y la problemática jurídica o social a resolver.
+2. Persistencia en base de datos: El servidor Express procesa la solicitud mediante un método POST y registra de forma segura la causa en la base de datos relacional del sistema.
+3. Adhesión comunitaria: Los demás miembros de la comunidad ingresan a la plataforma, leen la iniciativa disponible y hacen clic en el botón de respaldo, registrando su apoyo de manera digital.
+4. Conteo automático y auditoría: El backend actualiza dinámicamente el contador total de apoyos para esa causa específica y dispara un webhook de notificación no sensible hacia los canales de la veeduría.
+5. Compilación y exportación formal: Una vez alcanzado el umbral requerido o finalizado el plazo, el sistema compila los datos estandarizados de la causa y el volumen de apoyos para estructurar y exportar automáticamente un documento formal en formato PDF (Derecho de Petición listo para ser impreso o radicado ante las autoridades).

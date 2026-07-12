@@ -1,0 +1,12 @@
+Diseño del Flujo de Automatización Responsable:
+
+1. ¿Qué evento activa la automatización?
+   El flujo se activa de manera automatizada mediante el disparo de un nodo Webhook en n8n en el instante exacto en que un ciudadano completa el "tercer clic" y el servidor genera con éxito el archivo formal de la petición en PDF.
+
+2. ¿Qué mensaje se envía?
+   Se despacha una notificación de seguimiento estandarizada al canal de Telegram del equipo de veeduría:
+   "Notificación del Sistema: Se ha generado exitosamente el documento PDF formal para la causa comunitaria registrada. El archivo está listo en el repositorio administrativo para su descarga, impresión y radicación correspondiente ante la entidad competente."
+
+3. ¿Qué información NO debe enviarse por seguridad?
+   Para mitigar riesgos de seguridad digital y proteger la privacidad de los participantes, bajo ninguna circunstancia se deben enviar por este canal abierto: nombres de civiles o denunciantes, números de cédula, direcciones físicas de residencias, números telefónicos particulares, comentarios críticos sin moderar que puedan generar represalias, o tokens de acceso a los servidores de archivos de la plataforma.
+   
